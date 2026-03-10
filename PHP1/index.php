@@ -18,6 +18,24 @@
         <form action="redirect.php" method="GET">
         <table>
             <tr>
+                <td>First Name</td>
+                <td>
+                    <input type="text" name="fname" placeholder="Enter First Name" required />
+                </td>
+            </tr>
+            <tr>
+                <td>Middle Name</td>
+                <td>
+                    <input type="text" name="mname" placeholder="Enter Middle Name" required />
+                </td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td>
+                    <input type="text" name="lname" placeholder="Enter Last Name" required />
+                </td>
+            </tr>
+            <tr>
                 <td>Age</td>
                 <td>
                     <input type="text" name="age" placeholder="Enter Age" required />
@@ -62,6 +80,24 @@
         <legend>This form uses POST request</legend>
         <form action="redirect.php" method="POST">
         <table>
+            <tr>
+                <td>First Name</td>
+                <td>
+                    <input type="text" name="fname" placeholder="Enter First Name" required />
+                </td>
+            </tr>
+            <tr>
+                <td>Middle Name</td>
+                <td>
+                    <input type="text" name="mname" placeholder="Enter Middle Name" required />
+                </td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td>
+                    <input type="text" name="lname" placeholder="Enter Last Name" required />
+                </td>
+            </tr>
             <tr>
                 <td>Age</td>
                 <td>
